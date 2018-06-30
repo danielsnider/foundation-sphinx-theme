@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/*
+ *   Cards style for Foundation Sphinx Theme.
+ */
 /* line 4, ../../../../../../../../../var/lib/gems/1.8/gems/zurb-foundation-4.0.9/scss/foundation/components/_global.scss */
 *,
 *:before,
@@ -5831,4 +5834,903 @@ div.social-buttons > ul > li {
     word-break: normal;
     padding: 0.75em;
   }
+}
+/* line 9, ../sass/cards.sass */
+.top-bar-section li a:not(.button):hover {
+  background: #333333;
+}
+
+/* line 383, ../sass/cards.sass */
+a {
+  color: #3aa7d6;
+}
+/* line 385, ../sass/cards.sass */
+a:hover {
+  color: #8ecde8;
+}
+/* line 387, ../sass/cards.sass */
+a.headerlink {
+  margin-left: 0.2em;
+}
+
+/* line 391, ../sass/cards.sass */
+body {
+  color: #454545;
+  background-color: white;
+}
+
+/* line 396, ../sass/cards.sass */
+h1, h2, h3, h4, h5, h6 {
+  color: #454545;
+}
+
+/* line 400, ../sass/cards.sass */
+table, table tr, table tr:nth-of-type(even) {
+  border: none;
+  background-color: transparent;
+  background: none;
+}
+
+/* line 406, ../sass/cards.sass */
+#header {
+  background-color: #454545;
+  color: #f2f0ed;
+}
+/* line 409, ../sass/cards.sass */
+#header h1 {
+  color: #f2f0ed;
+}
+
+/* line 412, ../sass/cards.sass */
+div.social-buttons {
+  background-color: #f2f0ed;
+}
+
+/* line 416, ../sass/cards.sass */
+#footer-notice {
+  background-color: #454545;
+  color: #f2f0ed;
+}
+
+/* line 420, ../sass/cards.sass */
+#navigation > ul {
+  padding: 20px;
+}
+
+/* line 424, ../sass/cards.sass */
+ul.breadcrumbs {
+  background-color: transparent;
+  padding: 0em;
+  border: none;
+}
+/* line 303, ../sass/cards.sass */
+ul.breadcrumbs li {
+  background-color: #f7f3eb;
+  position: relative;
+  padding: 10px 20px;
+  padding-left: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #454545;
+  margin-bottom: 20px;
+}
+/* line 313, ../sass/cards.sass */
+ul.breadcrumbs li a {
+  padding: 0em;
+}
+/* line 316, ../sass/cards.sass */
+ul.breadcrumbs li.current a {
+  color: #454545;
+}
+/* line 319, ../sass/cards.sass */
+ul.breadcrumbs li:after {
+  pointer-events: none;
+  content: "";
+  width: 0px;
+  height: 0px;
+  line-height: 0px;
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-width: 100em 50em;
+  right: 0px;
+  bottom: 50%;
+}
+/* line 324, ../sass/cards.sass */
+ul.breadcrumbs li:before {
+  pointer-events: none;
+  content: "";
+  width: 0px;
+  height: 0px;
+  line-height: 0px;
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-width: 100em 50em;
+  right: 0px;
+  top: 50%;
+}
+/* line 284, ../sass/cards.sass */
+ul.breadcrumbs li:nth-child(even) {
+  background-color: #f7f3eb;
+}
+/* line 286, ../sass/cards.sass */
+ul.breadcrumbs li:nth-child(even):after {
+  border-color: transparent #ded5c5 transparent transparent;
+  _border-left-color: lime;
+  _border-bottom-color: lime;
+  _border-left-color: lime;
+  _filter: chroma(color=lime);
+}
+/* line 288, ../sass/cards.sass */
+ul.breadcrumbs li:nth-child(even):before {
+  border-color: transparent #ded5c5 transparent transparent;
+  _border-left-color: lime;
+  _border-bottom-color: lime;
+  _border-left-color: lime;
+  _filter: chroma(color=lime);
+}
+/* line 291, ../sass/cards.sass */
+ul.breadcrumbs li:nth-child(odd) {
+  background-color: #ded5c5;
+}
+/* line 293, ../sass/cards.sass */
+ul.breadcrumbs li:nth-child(odd):after {
+  border-color: transparent #f7f3eb transparent transparent;
+  _border-left-color: lime;
+  _border-bottom-color: lime;
+  _border-left-color: lime;
+  _filter: chroma(color=lime);
+}
+/* line 295, ../sass/cards.sass */
+ul.breadcrumbs li:nth-child(odd):before {
+  border-color: transparent #f7f3eb transparent transparent;
+  _border-left-color: lime;
+  _border-bottom-color: lime;
+  _border-left-color: lime;
+  _filter: chroma(color=lime);
+}
+/* line 331, ../sass/cards.sass */
+ul.breadcrumbs li:first-child {
+  background-color: #454545;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  padding-left: 20px;
+}
+/* line 336, ../sass/cards.sass */
+ul.breadcrumbs li:first-child:after {
+  border-color: transparent #f7f3eb transparent transparent;
+  _border-left-color: lime;
+  _border-bottom-color: lime;
+  _border-left-color: lime;
+  _filter: chroma(color=lime);
+}
+/* line 339, ../sass/cards.sass */
+ul.breadcrumbs li:first-child:before {
+  border-color: transparent #f7f3eb transparent transparent;
+  _border-left-color: lime;
+  _border-bottom-color: lime;
+  _border-left-color: lime;
+  _filter: chroma(color=lime);
+}
+/* line 343, ../sass/cards.sass */
+ul.breadcrumbs li:last-child {
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+/* line 346, ../sass/cards.sass */
+ul.breadcrumbs li:last-child:after {
+  border: none;
+}
+/* line 348, ../sass/cards.sass */
+ul.breadcrumbs li:last-child:before {
+  border: none;
+}
+/* line 426, ../sass/cards.sass */
+ul.breadcrumbs li a {
+  color: #3aa7d6;
+}
+/* line 428, ../sass/cards.sass */
+ul.breadcrumbs li a:hover {
+  color: #8ecde8;
+}
+
+/* line 434, ../sass/cards.sass */
+#content .highlight {
+  background-color: #454545;
+  padding: 20px;
+  border-radius: 16px;
+  line-height: 1em;
+}
+/* line 439, ../sass/cards.sass */
+#content .highlight > pre {
+  padding: 0em;
+  padding-bottom: 0.2em;
+  background-color: transparent;
+}
+/* line 443, ../sass/cards.sass */
+#content .highlight .hll {
+  display: block;
+  border-radius: 8px;
+  padding: 4px;
+  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+  background-color: #525252;
+}
+/* line 451, ../sass/cards.sass */
+#content tt.docutils.literal:not(.xref) {
+  padding: 0.2em 0.5em;
+  border-radius: 0.4em;
+  background-color: rgba(51, 34, 0, 0.05);
+  -webkit-box-shadow: inset 1px 1px 3px rgba(51, 34, 0, 0.3);
+  -moz-box-shadow: inset 1px 1px 3px rgba(51, 34, 0, 0.3);
+  box-shadow: inset 1px 1px 3px rgba(51, 34, 0, 0.3);
+}
+/* line 174, ../sass/cards.sass */
+#content .class > dt {
+  background-color: #454545;
+  color: #f2f0ed;
+  padding: 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 8px 16px;
+  margin: 0em;
+  margin-bottom: 0em;
+}
+/* line 179, ../sass/cards.sass */
+#content .class > dd {
+  background-color: #f7f3eb;
+  color: #454545;
+  padding: 20px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+/* line 184, ../sass/cards.sass */
+#content .class table.field-list {
+  border-radius: 32px;
+  margin-bottom: 0em;
+}
+/* line 190, ../sass/cards.sass */
+#content .class table.field-list li > p {
+  margin-bottom: 20px;
+}
+/* line 194, ../sass/cards.sass */
+#content .class table.field-list .field-body ul {
+  padding-right: 0em;
+}
+/* line 198, ../sass/cards.sass */
+#content .class table.field-list .field-body ul:last-child > li:last-child > *:last-child {
+  margin-bottom: 0em;
+}
+/* line 202, ../sass/cards.sass */
+#content .class table.field-list tr td, #content .class table.field-list tr th {
+  background-color: white;
+  color: #454545;
+  padding: 20px;
+  vertical-align: top;
+}
+/* line 206, ../sass/cards.sass */
+#content .class table.field-list tr th {
+  padding-right: 0em;
+}
+/* line 209, ../sass/cards.sass */
+#content .class table.field-list tr:first-child > th {
+  border-top-left-radius: 16px;
+}
+/* line 211, ../sass/cards.sass */
+#content .class table.field-list tr:last-child > th {
+  border-bottom-left-radius: 16px;
+}
+/* line 214, ../sass/cards.sass */
+#content .class table.field-list tr:first-child > td:last-child {
+  border-top-right-radius: 16px;
+}
+/* line 216, ../sass/cards.sass */
+#content .class table.field-list tr:last-child > td:last-child {
+  border-bottom-right-radius: 16px;
+}
+/* line 220, ../sass/cards.sass */
+#content .class table.field-list tr.returns > th {
+  background-color: #454545;
+  color: #f2f0ed;
+  vertical-align: middle;
+}
+/* line 226, ../sass/cards.sass */
+#content .class table.field-list tr.returns > td {
+  background-color: #ded5c5;
+  color: #454545;
+  vertical-align: middle;
+  padding: 20px;
+}
+/* line 174, ../sass/cards.sass */
+#content .class .method > dt, #content .class .classmethod > dt, #content .class .staticmethod > dt {
+  background-color: #454545;
+  color: #f2f0ed;
+  padding: 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 8px 16px;
+  margin: 0em;
+  margin-bottom: 0em;
+}
+/* line 179, ../sass/cards.sass */
+#content .class .method > dd, #content .class .classmethod > dd, #content .class .staticmethod > dd {
+  background-color: #f7f3eb;
+  color: #454545;
+  padding: 20px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+/* line 184, ../sass/cards.sass */
+#content .class .method table.field-list, #content .class .classmethod table.field-list, #content .class .staticmethod table.field-list {
+  border-radius: 32px;
+  margin-bottom: 0em;
+}
+/* line 190, ../sass/cards.sass */
+#content .class .method table.field-list li > p, #content .class .classmethod table.field-list li > p, #content .class .staticmethod table.field-list li > p {
+  margin-bottom: 20px;
+}
+/* line 194, ../sass/cards.sass */
+#content .class .method table.field-list .field-body ul, #content .class .classmethod table.field-list .field-body ul, #content .class .staticmethod table.field-list .field-body ul {
+  padding-right: 0em;
+}
+/* line 198, ../sass/cards.sass */
+#content .class .method table.field-list .field-body ul:last-child > li:last-child > *:last-child, #content .class .classmethod table.field-list .field-body ul:last-child > li:last-child > *:last-child, #content .class .staticmethod table.field-list .field-body ul:last-child > li:last-child > *:last-child {
+  margin-bottom: 0em;
+}
+/* line 202, ../sass/cards.sass */
+#content .class .method table.field-list tr td, #content .class .method table.field-list tr th, #content .class .classmethod table.field-list tr td, #content .class .classmethod table.field-list tr th, #content .class .staticmethod table.field-list tr td, #content .class .staticmethod table.field-list tr th {
+  background-color: white;
+  color: #454545;
+  padding: 20px;
+  vertical-align: top;
+}
+/* line 206, ../sass/cards.sass */
+#content .class .method table.field-list tr th, #content .class .classmethod table.field-list tr th, #content .class .staticmethod table.field-list tr th {
+  padding-right: 0em;
+}
+/* line 209, ../sass/cards.sass */
+#content .class .method table.field-list tr:first-child > th, #content .class .classmethod table.field-list tr:first-child > th, #content .class .staticmethod table.field-list tr:first-child > th {
+  border-top-left-radius: 16px;
+}
+/* line 211, ../sass/cards.sass */
+#content .class .method table.field-list tr:last-child > th, #content .class .classmethod table.field-list tr:last-child > th, #content .class .staticmethod table.field-list tr:last-child > th {
+  border-bottom-left-radius: 16px;
+}
+/* line 214, ../sass/cards.sass */
+#content .class .method table.field-list tr:first-child > td:last-child, #content .class .classmethod table.field-list tr:first-child > td:last-child, #content .class .staticmethod table.field-list tr:first-child > td:last-child {
+  border-top-right-radius: 16px;
+}
+/* line 216, ../sass/cards.sass */
+#content .class .method table.field-list tr:last-child > td:last-child, #content .class .classmethod table.field-list tr:last-child > td:last-child, #content .class .staticmethod table.field-list tr:last-child > td:last-child {
+  border-bottom-right-radius: 16px;
+}
+/* line 220, ../sass/cards.sass */
+#content .class .method table.field-list tr.returns > th, #content .class .classmethod table.field-list tr.returns > th, #content .class .staticmethod table.field-list tr.returns > th {
+  background-color: #454545;
+  color: #f2f0ed;
+  vertical-align: middle;
+}
+/* line 226, ../sass/cards.sass */
+#content .class .method table.field-list tr.returns > td, #content .class .classmethod table.field-list tr.returns > td, #content .class .staticmethod table.field-list tr.returns > td {
+  background-color: #ded5c5;
+  color: #454545;
+  vertical-align: middle;
+  padding: 20px;
+}
+/* line 467, ../sass/cards.sass */
+#content .class .method:last-child, #content .class .classmethod:last-child, #content .class .staticmethod:last-child {
+  margin-bottom: 0em;
+}
+/* line 471, ../sass/cards.sass */
+#content .class .method > dt, #content .class .method > dd, #content .class .classmethod > dt, #content .class .classmethod > dd, #content .class .staticmethod > dt, #content .class .staticmethod > dd {
+  background-color: transparent;
+  color: #454545;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #ded5c5;
+}
+/* line 478, ../sass/cards.sass */
+#content .class .method > dd, #content .class .classmethod > dd, #content .class .staticmethod > dd {
+  background-color: transparent;
+  border-top: none;
+  margin-bottom: 0em;
+}
+/* line 483, ../sass/cards.sass */
+#content .class .method > dd > *:last-child, #content .class .classmethod > dd > *:last-child, #content .class .staticmethod > dd > *:last-child {
+  margin-bottom: 0em;
+}
+/* line 174, ../sass/cards.sass */
+#content .function > dt {
+  background-color: #454545;
+  color: #f2f0ed;
+  padding: 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 8px 16px;
+  margin: 0em;
+  margin-bottom: 0em;
+}
+/* line 179, ../sass/cards.sass */
+#content .function > dd {
+  background-color: #f7f3eb;
+  color: #454545;
+  padding: 20px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+/* line 184, ../sass/cards.sass */
+#content .function table.field-list {
+  border-radius: 32px;
+  margin-bottom: 0em;
+}
+/* line 190, ../sass/cards.sass */
+#content .function table.field-list li > p {
+  margin-bottom: 20px;
+}
+/* line 194, ../sass/cards.sass */
+#content .function table.field-list .field-body ul {
+  padding-right: 0em;
+}
+/* line 198, ../sass/cards.sass */
+#content .function table.field-list .field-body ul:last-child > li:last-child > *:last-child {
+  margin-bottom: 0em;
+}
+/* line 202, ../sass/cards.sass */
+#content .function table.field-list tr td, #content .function table.field-list tr th {
+  background-color: white;
+  color: #454545;
+  padding: 20px;
+  vertical-align: top;
+}
+/* line 206, ../sass/cards.sass */
+#content .function table.field-list tr th {
+  padding-right: 0em;
+}
+/* line 209, ../sass/cards.sass */
+#content .function table.field-list tr:first-child > th {
+  border-top-left-radius: 16px;
+}
+/* line 211, ../sass/cards.sass */
+#content .function table.field-list tr:last-child > th {
+  border-bottom-left-radius: 16px;
+}
+/* line 214, ../sass/cards.sass */
+#content .function table.field-list tr:first-child > td:last-child {
+  border-top-right-radius: 16px;
+}
+/* line 216, ../sass/cards.sass */
+#content .function table.field-list tr:last-child > td:last-child {
+  border-bottom-right-radius: 16px;
+}
+/* line 220, ../sass/cards.sass */
+#content .function table.field-list tr.returns > th {
+  background-color: #454545;
+  color: #f2f0ed;
+  vertical-align: middle;
+}
+/* line 226, ../sass/cards.sass */
+#content .function table.field-list tr.returns > td {
+  background-color: #ded5c5;
+  color: #454545;
+  vertical-align: middle;
+  padding: 20px;
+}
+/* line 490, ../sass/cards.sass */
+#content dl > dd > table.docutils.field-list {
+  margin-bottom: 20px;
+}
+/* line 492, ../sass/cards.sass */
+#content dl > dd > table.docutils.field-list:last-child {
+  margin-bottom: 0em;
+}
+/* line 496, ../sass/cards.sass */
+#content .topic, #content .hlist, #content .genindex-jumpbox, #content .indextable {
+  padding: 20px;
+  border-radius: 16px;
+  border-style: none;
+  background-color: #f7f3eb;
+  color: #454545;
+}
+/* line 498, ../sass/cards.sass */
+#content .topic td, #content .hlist td, #content .genindex-jumpbox td, #content .indextable td {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+/* line 507, ../sass/cards.sass */
+#content .topic {
+  background-color: #f7f3eb;
+  color: #454545;
+  padding: 20px;
+  padding: 0em;
+  padding-bottom: 1px;
+  border-style: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-border-radius-topright: 24px;
+  -moz-border-radius-topleft: 24px;
+  -webkit-border-top-right-radius: 24px;
+  -webkit-border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+/* line 514, ../sass/cards.sass */
+#content .topic > * {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* line 519, ../sass/cards.sass */
+#content .topic .first {
+  background-color: #454545;
+  color: #f2f0ed;
+  padding: 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 8px 16px;
+  margin: 0em;
+  margin-bottom: 20px;
+}
+/* line 525, ../sass/cards.sass */
+#content table.docutils:not(.citation) {
+  background-color: transparent;
+}
+/* line 527, ../sass/cards.sass */
+#content table.docutils:not(.citation) td, #content table.docutils:not(.citation) th {
+  background-color: #f7f3eb;
+  color: #454545;
+  padding: 20px;
+  border: none;
+}
+/* line 533, ../sass/cards.sass */
+#content table.docutils:not(.citation) tr.row-odd td {
+  background-color: #f0e8d9;
+  color: #454545;
+}
+/* line 537, ../sass/cards.sass */
+#content table.docutils:not(.citation) thead th {
+  background-color: #454545;
+  color: #f2f0ed;
+}
+/* line 353, ../sass/cards.sass */
+#content table.docutils:not(.citation) thead th:first-child {
+  border-top-left-radius: 16px;
+}
+/* line 355, ../sass/cards.sass */
+#content table.docutils:not(.citation) thead th:last-child {
+  border-top-right-radius: 16px;
+}
+/* line 361, ../sass/cards.sass */
+#content table.docutils:not(.citation) tr:last-child td:first-child {
+  border-bottom-left-radius: 16px;
+}
+/* line 363, ../sass/cards.sass */
+#content table.docutils:not(.citation) tr:last-child td:last-child {
+  border-bottom-right-radius: 16px;
+}
+/* line 546, ../sass/cards.sass */
+#content table.longtable.docutils tr:first-child td:first-child {
+  border-top-left-radius: 16px;
+}
+/* line 548, ../sass/cards.sass */
+#content table.longtable.docutils tr:first-child td:last-child {
+  border-top-right-radius: 16px;
+}
+/* line 552, ../sass/cards.sass */
+#content div.modindex-jumpbox {
+  border: none;
+}
+/* line 555, ../sass/cards.sass */
+#content table.indextable {
+  background-color: #f7f3eb;
+  padding: 0em;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+/* line 374, ../sass/cards.sass */
+#content table.indextable tr:last-child td:first-child {
+  border-bottom-left-radius: 16px;
+}
+/* line 376, ../sass/cards.sass */
+#content table.indextable tr:last-child td:last-child {
+  border-bottom-right-radius: 16px;
+}
+/* line 284, ../sass/cards.sass */
+#content table.indextable tr:nth-child(even) {
+  background-color: #f0e8d9;
+}
+/* line 286, ../sass/cards.sass */
+#content table.indextable tr:nth-child(even):after {
+  border-color: transparent transparent transparent transparent;
+  _border-left-color: lime;
+  _border-bottom-color: lime;
+  _border-left-color: lime;
+  _filter: chroma(color=lime);
+}
+/* line 288, ../sass/cards.sass */
+#content table.indextable tr:nth-child(even):before {
+  border-color: transparent transparent transparent transparent;
+  _border-left-color: lime;
+  _border-bottom-color: lime;
+  _border-left-color: lime;
+  _filter: chroma(color=lime);
+}
+/* line 291, ../sass/cards.sass */
+#content table.indextable tr:nth-child(odd) {
+  background-color: transparent;
+}
+/* line 293, ../sass/cards.sass */
+#content table.indextable tr:nth-child(odd):after {
+  border-color: transparent #f0e8d9 transparent transparent;
+  _border-left-color: lime;
+  _border-bottom-color: lime;
+  _border-left-color: lime;
+  _filter: chroma(color=lime);
+}
+/* line 295, ../sass/cards.sass */
+#content table.indextable tr:nth-child(odd):before {
+  border-color: transparent #f0e8d9 transparent transparent;
+  _border-left-color: lime;
+  _border-bottom-color: lime;
+  _border-left-color: lime;
+  _filter: chroma(color=lime);
+}
+/* line 565, ../sass/cards.sass */
+#content table.indextable tr.cap td {
+  background-color: #454545;
+  color: #f2f0ed;
+  padding: 20px;
+}
+/* line 353, ../sass/cards.sass */
+#content table.indextable tr.cap td:first-child {
+  border-top-left-radius: 16px;
+}
+/* line 355, ../sass/cards.sass */
+#content table.indextable tr.cap td:last-child {
+  border-top-right-radius: 16px;
+}
+/* line 569, ../sass/cards.sass */
+#content table.indextable tr.pcap {
+  display: none;
+}
+/* line 572, ../sass/cards.sass */
+#content table.genindextable {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+/* line 577, ../sass/cards.sass */
+#content blockquote, #content .epigraph {
+  background-color: transparent;
+  color: inherit;
+  padding: 20px;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #ded5c5;
+  border-radius: 16px;
+}
+/* line 588, ../sass/cards.sass */
+#content table.docutils.citation {
+  border: none;
+}
+/* line 590, ../sass/cards.sass */
+#content table.docutils.citation td {
+  border-radius: 0px;
+  padding: 20px;
+  background-color: #f7f3eb;
+  color: #454545;
+}
+/* line 596, ../sass/cards.sass */
+#content table.docutils.citation td.label {
+  background-color: #454545;
+  color: #f2f0ed;
+  text-align: left;
+}
+/* line 602, ../sass/cards.sass */
+#content table.docutils.citation:first-of-type td {
+  border-top-right-radius: 16px;
+}
+/* line 604, ../sass/cards.sass */
+#content table.docutils.citation:first-of-type td.label {
+  border-radius: 0em;
+  border-top-left-radius: 16px;
+}
+/* line 609, ../sass/cards.sass */
+#content table.docutils.citation:last-of-type td {
+  border-bottom-right-radius: 16px;
+}
+/* line 611, ../sass/cards.sass */
+#content table.docutils.citation:last-of-type td.label {
+  border-radius: 0em;
+  border-bottom-left-radius: 16px;
+}
+/* line 617, ../sass/cards.sass */
+#content .admonition.note, #content .admonition.hint {
+  background-color: transparent;
+  border: none;
+  padding: 0em 0em 20px 0em !important;
+  border: 0em;
+  background-color: #ffef73;
+  color: #454545;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding: 8px 16px;
+  margin: 0em;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  margin-bottom: 1.25em;
+}
+/* line 244, ../sass/cards.sass */
+#content .admonition.note .first, #content .admonition.hint .first {
+  background-color: transparent;
+  color: #454545;
+  padding: 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 8px 16px;
+  margin: 0em;
+  background-color: #f7db00;
+  color: #454545;
+}
+/* line 251, ../sass/cards.sass */
+#content .admonition.note > *:not(:first-child), #content .admonition.hint > *:not(:first-child) {
+  background-color: transparent;
+  color: #454545;
+  padding: 20px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 20px;
+  padding-bottom: 0em;
+}
+/* line 259, ../sass/cards.sass */
+#content .admonition.note > blockquote, #content .admonition.hint > blockquote {
+  margin-top: 1.25em !important;
+  margin: 1.25em;
+  margin-bottom: 0em;
+  padding: 20px !important;
+}
+/* line 620, ../sass/cards.sass */
+#content .admonition.tip, #content .admonition.seealso {
+  background-color: transparent;
+  border: none;
+  padding: 0em 0em 20px 0em !important;
+  border: 0em;
+  background-color: #deffd4;
+  color: #454545;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding: 8px 16px;
+  margin: 0em;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  margin-bottom: 1.25em;
+}
+/* line 244, ../sass/cards.sass */
+#content .admonition.tip .first, #content .admonition.seealso .first {
+  background-color: transparent;
+  color: #454545;
+  padding: 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 8px 16px;
+  margin: 0em;
+  background-color: #72c257;
+  color: #454545;
+}
+/* line 251, ../sass/cards.sass */
+#content .admonition.tip > *:not(:first-child), #content .admonition.seealso > *:not(:first-child) {
+  background-color: transparent;
+  color: #454545;
+  padding: 20px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 20px;
+  padding-bottom: 0em;
+}
+/* line 259, ../sass/cards.sass */
+#content .admonition.tip > blockquote, #content .admonition.seealso > blockquote {
+  margin-top: 1.25em !important;
+  margin: 1.25em;
+  margin-bottom: 0em;
+  padding: 20px !important;
+}
+/* line 623, ../sass/cards.sass */
+#content .admonition.attention, #content .admonition.danger, #content .admonition.error, #content .admonition.warning, #content .admonition.important {
+  background-color: transparent;
+  border: none;
+  padding: 0em 0em 20px 0em !important;
+  border: 0em;
+  background-color: #fc9dc3;
+  color: #454545;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding: 8px 16px;
+  margin: 0em;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  margin-bottom: 1.25em;
+}
+/* line 244, ../sass/cards.sass */
+#content .admonition.attention .first, #content .admonition.danger .first, #content .admonition.error .first, #content .admonition.warning .first, #content .admonition.important .first {
+  background-color: transparent;
+  color: #454545;
+  padding: 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 8px 16px;
+  margin: 0em;
+  background-color: #e01b6a;
+  color: #454545;
+}
+/* line 251, ../sass/cards.sass */
+#content .admonition.attention > *:not(:first-child), #content .admonition.danger > *:not(:first-child), #content .admonition.error > *:not(:first-child), #content .admonition.warning > *:not(:first-child), #content .admonition.important > *:not(:first-child) {
+  background-color: transparent;
+  color: #454545;
+  padding: 20px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 20px;
+  padding-bottom: 0em;
+}
+/* line 259, ../sass/cards.sass */
+#content .admonition.attention > blockquote, #content .admonition.danger > blockquote, #content .admonition.error > blockquote, #content .admonition.warning > blockquote, #content .admonition.important > blockquote {
+  margin-top: 1.25em !important;
+  margin: 1.25em;
+  margin-bottom: 0em;
+  padding: 20px !important;
+}
+/* line 626, ../sass/cards.sass */
+#content .sidebar {
+  background-color: transparent;
+  border: none;
+  padding: 0em 0em 20px 0em !important;
+  border: 0em;
+  background-color: #f7f3eb;
+  color: #454545;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  padding: 8px 16px;
+  margin: 0em;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  margin-bottom: 1.25em;
+}
+/* line 244, ../sass/cards.sass */
+#content .sidebar .first {
+  background-color: transparent;
+  color: #454545;
+  padding: 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 8px 16px;
+  margin: 0em;
+  background-color: #454545;
+  color: #f2f0ed;
+}
+/* line 251, ../sass/cards.sass */
+#content .sidebar > *:not(:first-child) {
+  background-color: transparent;
+  color: #454545;
+  padding: 20px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 20px;
+  padding-bottom: 0em;
+}
+/* line 259, ../sass/cards.sass */
+#content .sidebar > blockquote {
+  margin-top: 1.25em !important;
+  margin: 1.25em;
+  margin-bottom: 0em;
+  padding: 20px !important;
+}
+/* line 628, ../sass/cards.sass */
+#content .sidebar .sidebar-subtitle {
+  padding: 8px 16px;
+  margin: 0em;
+  background-color: #787878;
+  color: #f2f0ed;
 }
